@@ -79,3 +79,30 @@ class Game:
 
         # Method that takes care of level setup
         self.setup_current_level()
+    def get_level(self) -> int:
+        """
+        Return the current level the game is at.
+        """
+
+        return self._level
+
+    def set_player(self, player: Player) -> None:
+        """
+        Set the game's player to be the given <player> object.
+        """
+
+        self.player = player
+
+    def add_actor(self, actor: Actor) -> None:
+        """
+        Add the given <actor> to the game's list of actors.
+        """
+
+        self._actors.append(actor)
+
+    def remove_actor(self, actor: Actor) -> None:
+        """
+        Remove the given <actor> from the game's list of actors.
+        """
+
+        self._actors.remove(actor)
