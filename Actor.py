@@ -1,6 +1,5 @@
 from typing import List
-import math
-import main
+import math, Main
 
 
 class Actor:
