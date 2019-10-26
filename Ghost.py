@@ -8,4 +8,5 @@ class Ghost(Actor):
 
     
     def chase_pacman(self, pacman: Actor) -> None:
-        
+        x_dist = pacman.rect.xpos - self.rect.xpos
+        y_dist = pacman.rect.ypos - self.rect.ypos
