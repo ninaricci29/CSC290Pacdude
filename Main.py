@@ -1,6 +1,4 @@
-import Actor
-import Pacman
-import Food
+import Actor, Pacman, Food, Barrier
 
 #global variables
 RES_WIDTH = 50

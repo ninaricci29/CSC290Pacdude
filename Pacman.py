@@ -15,12 +15,9 @@ class Pacman(Actor):
             Precondition: There exists a "left" entry in self.sprites
         """
 
-        for barrier in barriers:
-            if barrier.is_touching(Pacman(self.xpos - self.mvspeed, self.ypos, self.rect.width, self.rect.height, None)):
-                return
-
-        #TODO: change sprite appropriately
-        self.rect.move(self.xpos - self.mvspeed, self.ypos)
+        if (self.check_left(barriers)):
+            #TODO: change sprite appropriately
+            self.rect.move(self.xpos - self.mvspeed, self.ypos)
 
     
     def move_right(self, barriers: List[Barrier]) -> None:
@@ -32,12 +29,9 @@ class Pacman(Actor):
             Precondition: There exists a "right" entry in self.sprites
         """
 
-        for barrier in barriers:
-            if barrier.is_touching(Pacman(self.xpos + self.mvspeed, self.ypos, self.rect.width, self.rect.height, None)):
-                return
-
-        #TODO: change sprite appropriately
-        self.rect.move(self.xpos + self.mvspeed, self.ypos)
+        if (self.check_right(barriers)):
+            #TODO: change sprite appropriately
+            self.rect.move(self.xpos + self.mvspeed, self.ypos)
 
     
     def move_up(self, barriers: List[Barrier]) -> None:
@@ -49,12 +43,9 @@ class Pacman(Actor):
             Precondition: There exists a "up" entry in self.sprites
         """
 
-        for barrier in barriers:
-            if barrier.is_touching(Pacman(self.xpos, self.ypos - self.mvspeed, self.rect.width, self.rect.height, None)):
-                return
-
-        #TODO: change sprite appropriately
-        self.rect.move(self.xpos, self.ypos - self.mvspeed)
+        if (self.check_up(barriers)):
+            #TODO: change sprite appropriately
+            self.rect.move(self.xpos, self.ypos - self.mvspeed)
 
     
     def move_down(self, barriers: List[Barrier]) -> None:
@@ -66,9 +57,6 @@ class Pacman(Actor):
             Precondition: There exists a "down" entry in self.sprites
         """
 
-        for barrier in barriers:
-            if barrier.is_touching(Pacman(self.xpos, self.ypos + self.mvspeed, self.rect.width, self.rect.height, None)):
-                return
-
-        #TODO: change sprite appropriately
-        self.rect.move(self.xpos, self.ypos + self.mvspeed)
+        if (self.check_down(barriers)):
+            #TODO: change sprite appropriately
+            self.rect.move(self.xpos, self.ypos + self.mvspeed)
