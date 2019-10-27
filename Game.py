@@ -200,7 +200,25 @@ class Game:
         self.goal_CGPA = 3.0
         self.current_CGPA = 0.0
         self.goal_message = "Objective: Collect good marks to meet your CGPA!"
+    
+    def on_render(self) -> None:
+        """
+        Render all the game's elements onto the screen.
+        """
 
+        self.screen.fill(BLACK)
+        for a in self._actors:
+            rect = pygame.Rect(a.x * ICON_SIZE, a.y * ICON_SIZE, ICON_SIZE, ICON_SIZE)
+            self.screen.blit(a.icon, rect)
+
+        font = pygame.font.Font('freesansbold.ttf', 12)
+        text = font.render(self.goal_message, True, WHITE, BLACK)
+        textRect = text.get_rect()
+        textRect.center = (self.stage_width * ICON_SIZE // 2, \
+                           (self.stage_height + 0.5) * ICON_SIZE)
+        self.screen.blit(text, textRect)
+
+        pygame.display.flip()
 
     def execute(self) -> None:
         """
