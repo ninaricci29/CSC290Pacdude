@@ -66,17 +66,30 @@ class Game:
         self.setup_level()
 
 
+    def is_game_over(self) -> bool:
+        """
+        Determines if the game is over, which occurs if pacman is caught
+        or the goal_CGPA is met.
+        """
+        if (self.current_CGPA >= self.goal_CGPA):
+            return True
+
+        for ghost in ghosts:
+            if (ghost.is_touching(player)):
+                return True
+        
+        return False
+
+
     def execute(self) -> None:
         """
         Holds the main game loop of the game, which performs actions
         such as checking for user input, making the ghosts chase pacman, etc.
         on a continuous basis. Runs until is_game_over() returns true.
         """
-
-        is_game_over = False
         pygame.init()
 
-        while (not is_game_over):
+        while (not self.is_game_over()):
             
             # Handle user input. Arrow keys control the player's movement.
             for event in pygame.event.get():
