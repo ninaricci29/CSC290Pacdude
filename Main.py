@@ -1,20 +1,13 @@
-import Actor, Pacman, Food, Barrier
+import Game
 
-#global variables
-RES_WIDTH = 50
-RES_HEIGHT = 50
-points = 0
-pacman = Pacman(0, 0)
+"""
+This module initializes and runs the main game.
+"""
 
-#func
+if __name__ == "__main__":
 
-
-def is_game_over():
-    pass
-
-
-#main game loop
-while (not is_game_over()):
-    for food in foods:
-        if pacman.is_touching(food):
-            points += 1
+    # Instatiate the Game
+    game = Game()
+    
+    # Run the game until the game over.
+    game.execute() 
