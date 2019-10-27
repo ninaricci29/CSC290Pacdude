@@ -7,7 +7,7 @@ class Ghost(Actor):
     The game ends when pacman is "caught" by a ghost.
     """
 
-    move_direction = "left" #move_direction must be in {"left", "right", "up", "down"}
+    move_direction: str #move_direction must be in {"left", "right", "up", "down"}
 
     def __init__(self, start_xpos: float, start_ypos: float, \
                  width: float, height: float, start_mvspeed: float, sprites: dict):

@@ -2,19 +2,21 @@ from typing import List
 import math, Main, pygame, Barrier
 
 
-class Actor(object):
+class Actor(pygame.sprite.Sprite):
     """
     An Actor/Entity in a game of pacman. An Actor is a rectangle that
     has a set of coordinates, dimensions, sprites and complies with a 
     basic physics engine.
     """
     
-    mvspeed = 0.0
-    sprites = {}  # resolution should be RES_WIDTH x RES_HEIGHT
+    mvspeed : float
+    sprites : dict  # resolution should be RES_WIDTH x RES_HEIGHT
+    rect: pygame.Rect
 
 
     def __init__(self, start_xpos: float, start_ypos: float, \
                  width: float, height: float, start_mvspeed: float, sprites):
+        pygame.sprite.Sprite.__init__(self)
         self.mvspeed = start_mvspeed
         self.sprites = sprites
         self.rect = pygame.Rect(start_xpos, start_ypos, width, height)
