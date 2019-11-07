@@ -1,0 +1,72 @@
+
+
+class Pacman(Actor):
+    """
+    A class to represent a Player in the game.
+    """
+    # === Private Attributes ===
+    # _CGPA_collected:
+    #       the number of stars the player has collected so far
+    # _last_event:
+    #       keep track of the last key the user pushed down
+    # _smooth_move:
+    #       represent on/off status for smooth player movement
+
+    x: int
+    y: int
+    icon: pygame.Surface
+    _CGPA_collected: int
+    _last_event: Optional[int]
+    _smooth_move: bool
+
+        
+    def __init__(self, icon: str, x: int, y: int) -> None:
+        """Initalize a Player with the given image <icon> at the position
+        <x> and <y> on the stage."""
+
+        super().__init__(icon_file, x, y)
+        self._CGPA_collected = 0
+        
+
+    def move(self, game: 'Game') -> None:
+        """
+        Move the player on the <game>'s stage based on keypresses.
+        """
+
+        evt = self._last_event
+        if self._last_event:
+            dx, dy = 0, 0
+            if self._smooth_move:  # Smooth movement used by the ghost level
+                if game.keys_pressed[pygame.K_LEFT] or game.keys_pressed[pygame.K_a]:
+                    dx -= 1
+                elif game.keys_pressed[pygame.K_RIGHT] or game.keys_pressed[pygame.K_d]:
+                    dx += 1
+                elif game.keys_pressed[pygame.K_UP] or game.keys_pressed[pygame.K_w]:
+                    dy -= 1
+                elif game.keys_pressed[pygame.K_DOWN] or game.keys_pressed[pygame.K_s]:
+                    dy += 1
+
+            else:  # Precise movement used by the squishy monster level
+                if evt == pygame.K_LEFT or evt == pygame.K_a:
+                    dx -= 1
+                if evt == pygame.K_RIGHT or evt == pygame.K_d:
+                    dx += 1
+                if evt == pygame.K_UP or evt == pygame.K_w:
+                    dy -= 1
+                if evt == pygame.K_DOWN or evt == pygame.K_s:
+                    dy += 1
+                self._last_event = None
+
+            new_x, new_y = self.x + dx, self.y + dy
+            name_actor = game.get_actor(new_x, new_y)
+            # i.e. Check if move is possible / if star is to be collected, etc.
+
+            if (dx, dy) != (0, 0):
+
+                if isinstance(name_actor, Food):
+                    self._CGPA_collected += 1
+                    game.remove_actor(name_actor)
+                    self.x, self.y = new_x, new_y
+
+                elif not isinstance(name_actor, Wall):
+                    self.x, self.y = new_x, new_y
