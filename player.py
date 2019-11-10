@@ -18,6 +18,7 @@ class Pacman(Actor):
     _CGPA_collected: int
     _last_event: Optional[int]
     _smooth_move: bool
+    _num_lives : int
 
         
     def __init__(self, icon: str, x: int, y: int) -> None:
@@ -26,7 +27,14 @@ class Pacman(Actor):
 
         super().__init__(icon_file, x, y)
         self._CGPA_collected = 0
+        self._num_lives = 3
+    
+    def is_dead(self) -> bool:
+        """
+        Return True if the Player is not alive.
+        """
         
+        return False
 
     def move(self, game: 'Game') -> None:
         """
@@ -68,5 +76,16 @@ class Pacman(Actor):
                     game.remove_actor(name_actor)
                     self.x, self.y = new_x, new_y
 
-                elif not isinstance(name_actor, Wall):
+                elif (not isinstance(name_actor, Barrier):
                     self.x, self.y = new_x, new_y
+                
+                elif isinstance(name_actor, Ghost):
+                      self._num_lives =- 1
+                      if self._num_lives == 0:
+                        self.is_dead = True
+                        game.remove_actor(self)       
+                        #Game Over -exit game loop
+                      else:
+                         #Reset PacMan and Ghosts back to their original spots, but keep the cgpa points where they are
+                         #Start the game again
+                      
