@@ -6,7 +6,7 @@ class Pacman(Actor):
     """
     # === Private Attributes ===
     # _CGPA_collected:
-    #       the number of stars the player has collected so far
+    #       the cgpa the player has earned so far
     # _last_event:
     #       keep track of the last key the user pushed down
     # _smooth_move:
@@ -15,7 +15,7 @@ class Pacman(Actor):
     x: int
     y: int
     icon: pygame.Surface
-    _CGPA_collected: int
+    _CGPA_collected: float
     _last_event: Optional[int]
     _smooth_move: bool
     _num_lives : int
@@ -72,7 +72,7 @@ class Pacman(Actor):
             if (dx, dy) != (0, 0):
 
                 if isinstance(name_actor, Food):
-                    self._CGPA_collected += 1
+                    self._CGPA_collected += name_actor.getValue()
                     game.remove_actor(name_actor)
                     self.x, self.y = new_x, new_y
 
