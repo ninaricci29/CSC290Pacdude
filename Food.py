@@ -23,3 +23,6 @@ class Food(Actor):
 
     def move_down(self) -> None:
         return None
+    
+    def getValue(self) -> int:
+        return this.value
