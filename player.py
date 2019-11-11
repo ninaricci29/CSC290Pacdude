@@ -44,7 +44,7 @@ class Pacman(Actor):
         evt = self._last_event
         if self._last_event:
             dx, dy = 0, 0
-            if self._smooth_move:  # Smooth movement used by the ghost level
+            if self._smooth_move:  # Smooth movement
                 if game.keys_pressed[pygame.K_LEFT] or game.keys_pressed[pygame.K_a]:
                     dx -= 1
                 elif game.keys_pressed[pygame.K_RIGHT] or game.keys_pressed[pygame.K_d]:
@@ -54,7 +54,7 @@ class Pacman(Actor):
                 elif game.keys_pressed[pygame.K_DOWN] or game.keys_pressed[pygame.K_s]:
                     dy += 1
 
-            else:  # Precise movement used by the squishy monster level
+            else:  # Precise movement
                 if evt == pygame.K_LEFT or evt == pygame.K_a:
                     dx -= 1
                 if evt == pygame.K_RIGHT or evt == pygame.K_d:
@@ -71,14 +71,17 @@ class Pacman(Actor):
 
             if (dx, dy) != (0, 0):
 
+                # increase the cgpa of the player if they eat a point
                 if isinstance(name_actor, Food):
                     self._CGPA_collected += name_actor.getValue()
                     game.remove_actor(name_actor)
                     self.x, self.y = new_x, new_y
 
+                # move the player as long as they are not trying to go into a wall
                 elif (not isinstance(name_actor, Barrier):
                     self.x, self.y = new_x, new_y
                 
+                # if the player touches a ghost, they lose a life, and game over if all lives are depleted
                 elif isinstance(name_actor, Ghost):
                       self._num_lives =- 1
                       if self._num_lives == 0:
