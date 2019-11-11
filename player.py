@@ -87,7 +87,8 @@ class Pacman(Actor):
                       if self._num_lives == 0:
                         self.is_dead = True
                         game.remove_actor(self)       
-                        #Game Over -exit game loop
+                        self.is_game_over = True
+                      #Game Over -exit game loop
                       else:
                          #Reset PacMan and Ghosts back to their original spots, but keep the cgpa points where they are
                          #Start the game again
