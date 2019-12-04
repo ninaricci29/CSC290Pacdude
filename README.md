@@ -56,4 +56,11 @@ Use the arrow Keys to move.
 - Collect points (yellow circles) to increase the current score.
 - You win the game by achieving a score of 4.0.
 - You lose the game if the player character touches a ghost.
+- The ghosts will chase the player around the map for the duration of the game.
+
+## Addendum 
+
+### Patrick 
+
+Wrote the installation instructions section (including the subsections: for windows, for mac, for linux). Wrote the how to play section (including the subsections: launch instructions, controls, gameplay tips). Wrote the table of contents elements for those sections. Programmed the functions is_game_over(), execute(), chase_pacman(), is_touching(), check_left(), check_right(), check_down(), check_up(), move_left(), move_right(), move_down(), move_up(). Created the barrier, food and pacman classes and their member variables.
 
