@@ -65,7 +65,7 @@ Use the arrow Keys to move.
 - The game is set in a maze similar to the original Pacman, but with UTM themed elements.
 
 ##### Gameplay Screenshot
-![Gameplay Screenshot](/images/gamepic.png)
+![gamepic](https://user-images.githubusercontent.com/55632420/70191370-7de95200-16c6-11ea-8045-c7d6b30a867d.PNG)
 
 ## Authors
 
