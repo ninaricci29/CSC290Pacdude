@@ -63,7 +63,9 @@ Use the arrow Keys to move.
 ##### Gameplay
 
 - The game is set in a maze similar to the original Pacman, but with UTM themed elements.
-- 
+
+##### Gameplay Screenshot
+![Gameplay Screenshot](C:/Users/16474/Pictures/gamepic.png)
 
 ## Authors
 
@@ -84,3 +86,5 @@ Wrote the installation instructions section (including the subsections: for wind
 ### Alex
 
 Wrote the description and gameplay section. Provided additional methods such as getValue() and the move() methods in the Food class. Designed and created the map design of the game as a txt file. Designed and created all of the sprites and images used in the game, including sprites for the barriers, points, ghosts and pacman (the player) itself.
+
+## Licening 
