@@ -68,6 +68,18 @@ Use the arrow Keys to move.
 ##### Gameplay Screenshot
 ![gamepic](https://user-images.githubusercontent.com/55632420/70191370-7de95200-16c6-11ea-8045-c7d6b30a867d.PNG)
 
+##### Gameplay Screenshot
+![gamepic](https://user-images.githubusercontent.com/55632420/70191370-7de95200-16c6-11ea-8045-c7d6b30a867d.PNG)
+
+From the Screenshot above we are able to easily idenify:
+
+![points](https://user-images.githubusercontent.com/55632420/70191562-2992a200-16c7-11ea-984a-a47811f644ad.PNG) - The points which will increase you CGPA.
+
+![ghosts](https://user-images.githubusercontent.com/55632420/70191609-534bc900-16c7-11ea-8994-28caac33704b.PNG) - The ghosts which should be avioded at all costs.
+
+![player](https://user-images.githubusercontent.com/55632420/70191645-6d85a700-16c7-11ea-9888-51b5d1953d88.PNG) - the player centerd right in the middle
+
+![wall](https://user-images.githubusercontent.com/55632420/70191674-89894880-16c7-11ea-8674-903b952b283c.PNG) - Walls which represent the bourdaries.
 
 ## Documentation and Directory Structure:
 The documentation of the major classes, methods can be found in the Wiki page of this repository, over [here](https://github.com/itsninaricci29/CSC290Pacdude/wiki)
