@@ -1,7 +1,13 @@
 # CSC290 POSt-Man
 CSC 290 Group assignment repo for "POSt-Man" game.
 
+
+## Game Description
+
 "POSt-Man" is a University of Toronto themed Pacman game. Players attempt to achieve a GPA (score) of 4.0 by collecting points, while avoiding bad grades (ghosts) that pursuit them.
+It takes a classic game and redesigns it to better appeal to Unversity students who study Computer Science, especially students in UTM.
+With the nostalgic gameplay of the original Pacman, and a new and refreshed visual and gameplay design, w, the 4.0 Squad, hope that students and peers can find our game interesting and challenge themselves by trying out the game!
+
 
 ## Table of Contents
 
@@ -13,7 +19,6 @@ CSC 290 Group assignment repo for "POSt-Man" game.
   - [Launch Instructions](https://github.com/itsninaricci29/CSC290Pacdude#Launch-Instructions)
   - [Controls](https://github.com/itsninaricci29/CSC290Pacdude#Controls)
   - [Gameplay Tips](https://github.com/itsninaricci29/CSC290Pacdude#Gameplay-Tips)
-- [Documentation and Directory Structure](https://github.com/itsninaricci29/CSC290Pacdude#Documentation)
 - [Authors](https://github.com/itsninaricci29/CSC290Pacdude#Authors)
 - [Addendum](https://github.com/itsninaricci29/CSC290Pacdude#Addendum)
 
@@ -60,29 +65,30 @@ Use the arrow Keys to move.
 - You win the game by achieving a score of 4.0.
 - You lose the game if the player character touches a ghost.
 - The ghosts will chase the player around the map for the duration of the game.
+- Avoid getting cornered by multiple ghosts, as escape would be almost impossible.
 
 ##### Gameplay
 
 - The game is set in a maze similar to the original Pacman, but with UTM themed elements.
+- Key differences from the original Pacman game:
+  - No shortcuts on the sides of the map
+  - All 4 ghosts have identical AI, meaning that they will behave the same way
+  - No power-ups that allows the player to eat the ghosts
+  - A redesigned map
+ These differences were made to switch up the old formula and give the game a new take.
 
 ##### Gameplay Screenshot
-![gamepic](https://user-images.githubusercontent.com/55632420/70191370-7de95200-16c6-11ea-8045-c7d6b30a867d.PNG)
+![Gameplay Screenshot](Users/16474/Pictures/gamepic.png)
 
-##### Gameplay Screenshot
-![gamepic](https://user-images.githubusercontent.com/55632420/70191370-7de95200-16c6-11ea-8045-c7d6b30a867d.PNG)
+## Out of Scope Features
 
-From the Screenshot above we are able to easily idenify:
-
-![points](https://user-images.githubusercontent.com/55632420/70191562-2992a200-16c7-11ea-984a-a47811f644ad.PNG) - The points which will increase you CGPA.
-
-![ghosts](https://user-images.githubusercontent.com/55632420/70191609-534bc900-16c7-11ea-8994-28caac33704b.PNG) - The ghosts which should be avioded at all costs.
-
-![player](https://user-images.githubusercontent.com/55632420/70191645-6d85a700-16c7-11ea-9888-51b5d1953d88.PNG) - the player centerd right in the middle
-
-![wall](https://user-images.githubusercontent.com/55632420/70191674-89894880-16c7-11ea-8674-903b952b283c.PNG) - Walls which represent the bourdaries.
-
-## Documentation and Directory Structure:
-The documentation of the major classes, methods can be found in the Wiki page of this repository, over [here](https://github.com/itsninaricci29/CSC290Pacdude/wiki)
+Here is a list of features that didn't make it to our final version of the game due to time constraints and lack of additional skills
+- A power-up system, that could increase the movement speed of the player, or allow them to eat ghosts etc.
+- Different behavioral AI, to make the ghosts feel unique and add additional depth to the gameplay.
+- Shortcuts around the map to quickly traverse from one side to the other.
+- SoundFX and BGM to immerse the player
+- Sprite animations for the player's and ghosts' actions
+- Multiple map designs/levels
 
 ## Authors
 
@@ -102,6 +108,6 @@ Wrote the installation instructions section (including the subsections: for wind
 
 ### Alex
 
-Wrote the description and gameplay section. Provided additional methods such as getValue() and the move() methods in the Food class. Designed and created the map design of the game as a txt file. Designed and created all of the sprites and images used in the game, including sprites for the barriers, points, ghosts and pacman (the player) itself.
+Wrote the description and gameplay section, added some additional points under gameplay tips. Provided additional methods such as getValue() and the move() methods in the Food class. Designed and created the map design of the game as a txt file. Designed and created all of the sprites and images used in the game, including sprites for the barriers, points, ghosts and pacman (the player) itself.
 
 ## Licening 
