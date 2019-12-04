@@ -13,6 +13,7 @@ CSC 290 Group assignment repo for "POSt-Man" game.
   - [Launch Instructions](https://github.com/itsninaricci29/CSC290Pacdude#Launch-Instructions)
   - [Controls](https://github.com/itsninaricci29/CSC290Pacdude#Controls)
   - [Gameplay Tips](https://github.com/itsninaricci29/CSC290Pacdude#Gameplay-Tips)
+- [Documentation and Directory Structure](https://github.com/itsninaricci29/CSC290Pacdude#Documentation)
 - [Authors](https://github.com/itsninaricci29/CSC290Pacdude#Authors)
 - [Addendum](https://github.com/itsninaricci29/CSC290Pacdude#Addendum)
 
@@ -66,6 +67,10 @@ Use the arrow Keys to move.
 
 ##### Gameplay Screenshot
 ![gamepic](https://user-images.githubusercontent.com/55632420/70191370-7de95200-16c6-11ea-8045-c7d6b30a867d.PNG)
+
+
+## Documentation and Directory Structure:
+The documentation of the major classes, methods can be found in the Wiki page of this repository, over [here](https://github.com/itsninaricci29/CSC290Pacdude/wiki)
 
 ## Authors
 
