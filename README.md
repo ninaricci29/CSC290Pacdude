@@ -13,6 +13,7 @@ CSC 290 Group assignment repo for "POSt-Man" game.
   - [Launch Instructions](https://github.com/itsninaricci29/CSC290Pacdude#Launch-Instructions)
   - [Controls](https://github.com/itsninaricci29/CSC290Pacdude#Controls)
   - [Gameplay Tips](https://github.com/itsninaricci29/CSC290Pacdude#Gameplay-Tips)
+- [Authors](https://github.com/itsninaricci29/CSC290Pacdude#Authors)
 - [Addendum](https://github.com/itsninaricci29/CSC290Pacdude#Addendum)
 
 ## Installation Guide
@@ -58,6 +59,16 @@ Use the arrow Keys to move.
 - You win the game by achieving a score of 4.0.
 - You lose the game if the player character touches a ghost.
 - The ghosts will chase the player around the map for the duration of the game.
+
+## Authors
+
+POSt-man was created as the final project for the second year course CSC290 at the University of Toronto Mississauga. The authors for POSt-Man include:
+
+-	Patrick Yevych
+-	Nina Ricci Lu
+- Mayra Nihal
+-	Alex Quach
+- Saad Qadri
 
 ## Addendum 
 
