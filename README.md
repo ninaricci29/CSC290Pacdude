@@ -10,7 +10,9 @@ CSC 290 Group assignment repo for "POSt-Man" game.
   - [For Mac](https://github.com/itsninaricci29/CSC290Pacdude#For-Mac)
   - [For Linux](https://github.com/itsninaricci29/CSC290Pacdude#For-Linux)
 - [How to Play](https://github.com/itsninaricci29/CSC290Pacdude#How-to-Play)
-
+  - [Launch Instructions](https://github.com/itsninaricci29/CSC290Pacdude#Launch-Instructions)
+  - [Controls](https://github.com/itsninaricci29/CSC290Pacdude#Controls)
+  - [Gameplay Tips](https://github.com/itsninaricci29/CSC290Pacdude#Gameplay-Tips)
 
 ## Installation Guide
 
