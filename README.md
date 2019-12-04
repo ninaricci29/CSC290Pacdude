@@ -6,7 +6,7 @@ CSC 290 Group assignment repo for "POSt-Man" game.
 
 "POSt-Man" is a University of Toronto themed Pacman game. Players attempt to achieve a GPA (score) of 4.0 by collecting points, while avoiding bad grades (ghosts) that pursuit them.
 It takes a classic game and redesigns it to better appeal to Unversity students who study Computer Science, especially students in UTM.
-With the nostalgic gameplay of the original Pacman, and a new and refreshed visual and gameplay design, w, the 4.0 Squad, hope that students and peers can find our game interesting and challenge themselves by trying out the game!
+With the nostalgic gameplay of the original Pacman, and a new and refreshed visual and gameplay design, we, the 4.0 Squad, hope that students and peers can find our game interesting and challenge themselves by trying out the game and make POSt!
 
 
 ## Table of Contents
@@ -78,18 +78,7 @@ Use the arrow Keys to move.
  These differences were made to switch up the old formula and give the game a new take.
 
 ##### Gameplay Screenshot
-![gamepic](https://user-images.githubusercontent.com/55632420/70191370-7de95200-16c6-11ea-8045-c7d6b30a867d.PNG)
-
-From the Screenshot above we are able to easily idenify:
-
-![points](https://user-images.githubusercontent.com/55632420/70191562-2992a200-16c7-11ea-984a-a47811f644ad.PNG) - The points which will increase you CGPA.
-
-![ghosts](https://user-images.githubusercontent.com/55632420/70191609-534bc900-16c7-11ea-8994-28caac33704b.PNG) - The ghosts which should be avioded at all costs.
-
-![player](https://user-images.githubusercontent.com/55632420/70191645-6d85a700-16c7-11ea-9888-51b5d1953d88.PNG) - the player centerd right in the middle
-
-![wall](https://user-images.githubusercontent.com/55632420/70191674-89894880-16c7-11ea-8674-903b952b283c.PNG) - Walls which represent the bourdaries.
-
+![Gameplay Screenshot](Users/16474/Pictures/gamepic.png)
 
 ## Out of Scope Features
 
@@ -119,6 +108,6 @@ Wrote the installation instructions section (including the subsections: for wind
 
 ### Alex
 
-Wrote the description and gameplay section, added some additional points under gameplay tips. Provided additional methods such as getValue() and the move() methods in the Food class. Designed and created the map design of the game as a txt file. Designed and created all of the sprites and images used in the game, including sprites for the barriers, points, ghosts and pacman (the player) itself.
+Wrote the description section, the out of scope features and gameplay section, added some additional points under gameplay tips. Provided additional methods such as getValue() and the move() methods in the Food class. Designed and created the map design of the game as a txt file. Designed and created all of the sprites and images used in the game, including sprites for the barriers, points, ghosts and pacman (the player) itself.
 
 ## Licening 
