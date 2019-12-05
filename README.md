@@ -20,6 +20,7 @@ With the nostalgic gameplay of the original Pacman, and a new and refreshed visu
   - [Launch Instructions](https://github.com/itsninaricci29/CSC290Pacdude#Launch-Instructions)
   - [Controls](https://github.com/itsninaricci29/CSC290Pacdude#Controls)
   - [Gameplay Tips](https://github.com/itsninaricci29/CSC290Pacdude#Gameplay-Tips)
+- [Documentation and Directory Structure](https://github.com/itsninaricci29/CSC290Pacdude#Documentation-and-Directory-Structure)
 - [Authors](https://github.com/itsninaricci29/CSC290Pacdude#Authors)
 - [Addendum](https://github.com/itsninaricci29/CSC290Pacdude#Addendum)
 
@@ -107,6 +108,9 @@ Here is a list of features that didn't make it to our final version of the game 
 - Multiple map designs/levels
 
 As this project is open source, we encourage any developer to try and improve the game by adding these features listed above, and even add some unique features of their own to make "POSt-Man" the best version it can be!
+
+## Documentation and Directory Structure:
+The documentation of the major classes, methods can be found in the Wiki page of this repository, over [here]
 
 ## Authors
 
