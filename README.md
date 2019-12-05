@@ -137,8 +137,11 @@ Wrote the description section, the out of scope features and gameplay section, a
 
 ## License Information
 The MIT License (MIT)
+\newline
 Copyright © [2019] [Saad Qadri, Nina Ricci Lu, Mayra Nihal, Alex Quach, Patrick Yevych]
+\newline
 You can find a copy of the License at https://mit-license.org/
+\newline
 License for them is in Public Domain
 
 
