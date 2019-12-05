@@ -133,7 +133,11 @@ Wrote the installation instructions section (including the subsections: for wind
 
 ### Alex
 
-Wrote the description section, the out of scope features and gameplay section, added some additional points under gameplay tips. Provided additional methods such as getValue() and the move() methods in the Food class. Designed and created the map design of the game as a txt file. Designed and created all of the sprites and images used in the game, including sprites for the barriers, points, ghosts and pacman (the player) itself.
+Wrote the out of scope features and gameplay section, added some additional points under gameplay tips. Provided additional methods such as getValue() and the move() methods in the Food class. Designed and created the map design of the game as a txt file. Designed and created all of the sprites and images used in the game, including sprites for the barriers, points, ghosts and pacman (the player) itself.
+
+### Nina
+
+For the README, I wrote a detailed description of the game outlining what the game is and its rules. As for the code, I wrote an interface class Actor that contains the method move(). I also fully implemented the subclass Player()  that inherits the move() method. For the Game class, I implemented an initializer that initialized all the variables that are essential in this class. I also implemented the method load_map which requires a text file that represents a level of the game containing unique symbols. I also created a Main.py that initializes the Game() and runs the main application.
 
 ## License Information
 -The MIT License (MIT)
