@@ -5,6 +5,7 @@ CSC 290 Group assignment repo for "POSt-Man" game.
 ## Game Description
 
 "POSt-Man" is a University of Toronto themed Pacman game. Players attempt to achieve a GPA (score) of 4.0 by collecting points, while avoiding bad grades (ghosts) that pursuit them.
+
 It takes a classic game and redesigns it to better appeal to Unversity students who study Computer Science, especially students in UTM.
 With the nostalgic gameplay of the original Pacman, and a new and refreshed visual and gameplay design, we, the 4.0 Squad, hope that students and peers can find our game interesting and challenge themselves by trying out the game and make POSt!
 
@@ -75,6 +76,7 @@ Use the arrow Keys to move.
   - All 4 ghosts have identical AI, meaning that they will behave the same way
   - No power-ups that allows the player to eat the ghosts
   - A redesigned map
+  
  These differences were made to switch up the old formula and give the game a new take.
 
 ##### Gameplay Screenshot
@@ -89,6 +91,8 @@ Here is a list of features that didn't make it to our final version of the game 
 - SoundFX and BGM to immerse the player
 - Sprite animations for the player's and ghosts' actions
 - Multiple map designs/levels
+
+As this project is open source, we encourage any developer to try and improve the game by adding these features listed above, and even add some unique features of their own to make "POSt-Man" the best version it can be!
 
 ## Authors
 
