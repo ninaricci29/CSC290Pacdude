@@ -139,6 +139,10 @@ Wrote the out of scope features and gameplay section, added some additional poin
 
 For the README, I wrote a detailed description of the game outlining what the game is and its rules. As for the code, I wrote an interface class Actor that contains the method move(). I also fully implemented the subclass Player()  that inherits the move() method. For the Game class, I implemented an initializer that initialized all the variables that are essential in this class. I also implemented the method load_map which requires a text file that represents a level of the game containing unique symbols. I also created a Main.py that initializes the Game() and runs the main application.
 
+### Saad
+
+Displayed the Gameplay Screenshot section, which illustrated the visuals of our game including what each of them represents and wrote the licensing information. Created the initial map.txt which is basically the map used in our level created to add and remove methods for each of the various actor classes, added a map setup method which sets up the visuals components of our game, added a method to check if the game has been won and if the game is over, added the on_init(), on_event and close_game() method as well to further help with running our game.
+
 ## License Information
 -The MIT License (MIT)
 
