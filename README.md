@@ -95,7 +95,7 @@ From the Screenshot above we are able to easily idenify:
 -The ghosts which should be avioded at all costs.
 
 ![player](https://user-images.githubusercontent.com/55632420/70191645-6d85a700-16c7-11ea-9888-51b5d1953d88.PNG) 
--The player centerd right in the middle
+-The player centered right in the middle.
 
 ![wall](https://user-images.githubusercontent.com/55632420/70191674-89894880-16c7-11ea-8674-903b952b283c.PNG) 
 -Walls which represent the bourdaries.
