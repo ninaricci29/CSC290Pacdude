@@ -136,5 +136,9 @@ Wrote the installation instructions section (including the subsections: for wind
 Wrote the description section, the out of scope features and gameplay section, added some additional points under gameplay tips. Provided additional methods such as getValue() and the move() methods in the Food class. Designed and created the map design of the game as a txt file. Designed and created all of the sprites and images used in the game, including sprites for the barriers, points, ghosts and pacman (the player) itself.
 
 ## License Information
+The MIT License (MIT)
+Copyright © [2019] [Saad Qadri, Nina Ricci Lu, Mayra Nihal, Alex Quach, Patrick Yevych]
+You can find a copy of the License at https://mit-license.org/
+License for them is in Public Domain
 
 
