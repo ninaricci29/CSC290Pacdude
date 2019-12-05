@@ -110,7 +110,7 @@ Here is a list of features that didn't make it to our final version of the game 
 As this project is open source, we encourage any developer to try and improve the game by adding these features listed above, and even add some unique features of their own to make "POSt-Man" the best version it can be!
 
 ## Documentation and Directory Structure:
-The documentation of the major classes, methods can be found in the Wiki page of this repository, over [here]
+The documentation of the major classes, methods can be found in the Wiki page of this repository, over [here (https://github.com/itsninaricci29/CSC290Pacdude/wiki)
 
 ## Authors
 
