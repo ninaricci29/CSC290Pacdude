@@ -4,10 +4,13 @@ CSC 290 Group assignment repo for "POSt-Man" game.
 
 ## Game Description
 
-"POSt-Man" is a University of Toronto themed Pacman game. Players attempt to achieve a GPA (score) of 4.0 by collecting points, while avoiding bad grades (ghosts) that pursuit them.
+Is UofT drowning you with loads of assignments and tests? But you would rather enjoy playing a fun game? Then Post-Man is the game for you!
 
-It takes a classic game and redesigns it to better appeal to Unversity students who study Computer Science, especially students in UTM.
-With the nostalgic gameplay of the original Pacman, and a new and refreshed visual and gameplay design, we, the 4.0 Squad, hope that students and peers can find our game interesting and challenge themselves by trying out the game and make POSt!
+Post-Man is a UofT themed game based on the original game “PacMan”. Post-Man is implemented using Python which fully utilizes a python library called PyGame to produce a fully functioning UI. A simple interface has been designed for a unique user experience. 
+
+This real-time game requires the user to use the directional keys on their keyboard to move the player. The player has three lives for the duration of the game meaning if the player encounters a bad assignment, a life is taken away.  The player’s main goal is to acquire a certain GPA (score) of 4.0 by collecting powerups while avoiding bad assignments to ensure entry into the Computer Science POST. 
+
+So do you have what it takes to make Computer Science POST?
 
 
 ## Table of Contents
