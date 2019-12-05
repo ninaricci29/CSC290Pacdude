@@ -84,9 +84,9 @@ Use the arrow Keys to move.
 
 From the Screenshot above we are able to easily idenify:
 
-![points](https://user-images.githubusercontent.com/55632420/70191562-2992a200-16c7-11ea-984a-a47811f644ad.PNG) - The points which will increase you CGPA.
+![points](https://user-images.githubusercontent.com/55632420/70191562-2992a200-16c7-11ea-984a-a47811f644ad.PNG =250x) - The points which will increase you CGPA.
 
-![ghosts](https://user-images.githubusercontent.com/55632420/70191609-534bc900-16c7-11ea-8994-28caac33704b.PNG) - The ghosts which should be avioded at all costs.
+![ghosts](https://user-images.githubusercontent.com/55632420/70191609-534bc900-16c7-11ea-8994-28caac33704b.PNG =250x) - The ghosts which should be avioded at all costs.
 
 ![player](https://user-images.githubusercontent.com/55632420/70191645-6d85a700-16c7-11ea-9888-51b5d1953d88.PNG) - the player centerd right in the middle
 
