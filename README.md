@@ -113,7 +113,7 @@ Here is a list of features that didn't make it to our final version of the game 
 As this project is open source, we encourage any developer to try and improve the game by adding these features listed above, and even add some unique features of their own to make "POSt-Man" the best version it can be!
 
 ## Documentation and Directory Structure:
-The documentation of the major classes, methods can be found in the Wiki page of this repository, over [here](https://github.com/itsninaricci29/CSC290Pacdude/wiki)
+The documentation of the major classes, methods can be found in the Wiki page of this repository, over [here](https://github.com/itsninaricci29/CSC290Pacdude/wiki/Welcome-to-the-POSt-Man-Documentation)
 
 ## Authors
 
@@ -142,6 +142,9 @@ For the README, I wrote a detailed description of the game outlining what the ga
 ### Saad
 
 Displayed the Gameplay Screenshot section, which illustrated the visuals of our game including what each of them represents and wrote the licensing information. Created the initial map.txt which is basically the map used in our level created to add and remove methods for each of the various actor classes, added a map setup method which sets up the visuals components of our game, added a method to check if the game has been won and if the game is over, added the on_init(), on_event and close_game() method as well to further help with running our game.
+
+### Mayra
+For the README, I added the Authors section as well as the Documentation and Directory Structure section. Additionally, I wrote the entire project documentation page that is located on this repository's Wiki page, which includes the major classes and methods, as well as how to extend our game. For code, I added code that was required for the game logic part, such as the Player's num_lives attribute, and the is_dead method. The num_lives attribute keeps track of how many lives the Player has, and the is_dead method returns whether the player is still alive. I also added to the Player's move() method, which enables the player to make a move depending on if is_dead returns false or not. Moreover, I also added the move() method inside the Barrier class that overrides the move method from Barrier's superclass (called Actor). The reasoning behind this was so that a Barrier object would not move at any point throughout the game.
 
 ## License Information
 -The MIT License (MIT)
